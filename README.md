@@ -140,7 +140,7 @@ This changes the priority of the process with the given pid
 ### Four processes that are IO-Bound
 ![Alt text](graphs/onlyIO.png?raw=true "Title")
 - In Multi-Level Feedback Queue Scheduling if a process executes from a certain queue, and doesn't go into IO or finish within a certain number of clock cycles, then it will be demoted to a queue of lower priority.
-- Here, since all processes are IO bound, i.e. They spend most their time in IO calls, They wont execute for too long in each cpu burst, and hence wont be demoted to much.
+- Here, since all processes are IO bound, i.e. since they spend most their time in IO calls, they wont execute for too long in each cpu burst, and hence wont be demoted too much.
 ### Four processes that are CPU-Bound
 ![Alt text](graphs/only_cpu.png?raw=true "Title")
 - Here, since all processes are CPU bound, i.e. They spend most their time executing, They will be demoted to lower queues as they will not go into IO or exit before the cpu cycle limit per cpu burst.
