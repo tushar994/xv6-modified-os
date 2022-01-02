@@ -1,5 +1,10 @@
 # xv6-public-modified
 
+## About
+
+This is a project where I took the xv6 terminal made by MIT, and modified it to have more schedulers and system calls. More details about what I did.
+
+
 ## Usage
 
 ```bash
